@@ -1,0 +1,10 @@
+name: First Workflow
+
+on: push
+
+jobs:
+    first_job:
+        runs_on: ubuntu-lates
+        steps:
+          - name: Welcome message
+            run: echo "Hello Serhii"

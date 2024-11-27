@@ -11,3 +11,9 @@ jobs:
           
           - name: Welcome message
             run: echo "Hello Serhii"
+          
+          - name: Check files
+            run: ls -al
+
+          - name: Print the test.txt file
+            run: cat test.txt
